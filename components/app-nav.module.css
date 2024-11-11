@@ -1,0 +1,15 @@
+.appNav {
+  margin: 2rem auto 1rem;
+  width: 100%;
+}
+.appNav a {
+  text-decoration: none;
+  color: orangered;
+  margin: 0.5em;
+}
+
+nav a:global(.active) {
+  background-color: #28282b;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+}/*# sourceMappingURL=app-nav.module.css.map */

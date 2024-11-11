@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  // color: #fff;
+}
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+body {
+  // background-color: #282b2b;
+  font-family: sans-serif;
+}
+
+
+
+.cta {
+  text-decoration: none;
+  background-color: rgb(127, 179, 49);
+  padding: 0.5em 1em;
+  color: #fff;
+  margin: 1em 0;
+  display: inline-block;
+}

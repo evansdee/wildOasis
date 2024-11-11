@@ -1,0 +1,14 @@
+.countryList {
+  display: grid;
+  padding: 0 2em;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: repeat(2, 4em);
+  gap: 1em;
+}
+.countryList li {
+  background-color: #28282b;
+  border-left: 4px solid orangered;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=countrylist.module.css.map */

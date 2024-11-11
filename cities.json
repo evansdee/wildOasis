@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": "ee90",
+      "cityName": "Abuja",
+      "country": "Nigeria",
+      "date": "2024-04-05T10:21:53.362Z",
+      "note": "nil",
+      "position": {
+        "lat": "9.09701170798074",
+        "lng": "7.448902130126954"
+      }
+    },
+    {
+      "id": "c4ff",
+      "cityName": "Abuja",
+      "country": "Nigeria",
+      "date": "2024-04-05T10:22:02.569Z",
+      "note": "gg",
+      "position": {
+        "lat": "9.097520214307794",
+        "lng": "7.387104034423829"
+      }
+    },
+    {
+      "id": "fc54",
+      "cityName": "Petermann",
+      "country": "Australia",
+      "date": "2024-04-05T10:22:15.774Z",
+      "note": "",
+      "position": {
+        "lat": "-25.16517336866393",
+        "lng": "131.83593750000003"
+      }
+    }
+  ]
+}

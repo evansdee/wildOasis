@@ -1,0 +1,51 @@
+
+
+.form{
+    margin: 1em auto;
+    background-color: #28282b;
+    width: 80%;
+    border-radius: 10px;
+    display: grid;
+    // grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr) .25fr;
+    padding: 1.5em;
+
+    :global(.row){
+
+        input,textarea{
+            border: none;
+            border-radius: 5px;
+            margin: .5em 0;
+            padding: .5em;
+            width: 100%;
+            background-color: rgb(229, 240, 229);
+
+            &:focus{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    .btn{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        button{
+            border: none;
+            padding: .5em 1em;
+            text-transform: uppercase;
+
+            &:first-of-type{
+                background: rgb(58, 160, 58);
+            }
+            &:last-of-type{
+                background-color: #28282b;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+        }
+    }
+}

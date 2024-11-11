@@ -1,0 +1,13 @@
+.city {
+  background-color: #28282b;
+  padding: 2em;
+  width: 90%;
+  margin: 1em auto;
+  border-radius: 10px;
+}
+.city .row {
+  margin: 1em 0;
+}
+.city .row h3 {
+  margin: 0.5em 0;
+}/*# sourceMappingURL=city.module.css.map */

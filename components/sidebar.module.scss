@@ -1,0 +1,29 @@
+
+.sidebar{
+    position: relative;
+    background-color: rgb(95, 90, 80);
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 1.5em 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: blue;
+    grid-template-rows: .5fr .5fr 2fr .5fr;
+
+    .ctr{
+        align-self: end;
+    }
+
+    footer{
+      text-align: center;
+      align-self: end;
+    }
+}
+
+:global(.ctr){
+    margin: 0 auto;
+    display: block;
+}
